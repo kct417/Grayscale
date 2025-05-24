@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inventory_transparent_0: 1725487208701115551
+      inventory_transparent_1: -2688491596665812052
+      inventory_transparent_2: -8731025034703972293
+      inventory_transparent_3: -9076771376281233825
+      inventory_transparent_4: 8956071465273209035
+      inventory_transparent_5: 5759982741262396839
+      inventory_transparent_6: -416923219004775326
+      inventory_transparent_7: -2907558628072149435
+      inventory_transparent_8: 2573743723880313817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

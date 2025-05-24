@@ -294,8 +294,8 @@ TextureImporter:
         y: 97
         width: 48
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,11 +335,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 229
-        y: 80
+        y: 96
         width: 54
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,7 +468,7 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 32
-        width: 96
+        width: 48
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -492,8 +492,8 @@ TextureImporter:
         y: 97
         width: 48
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -572,6 +572,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: menu_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 80
+        width: 54
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6855ea205655bc4448134acdd69b6ee1
+      internalID: 1030906178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933e79443baa4f45a53101f80071abe
+      internalID: -1824419076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -597,7 +641,9 @@ TextureImporter:
       menu_transparent_16: 660931096
       menu_transparent_17: 1180881364
       menu_transparent_18: 74924180
+      menu_transparent_19: 1030906178
       menu_transparent_2: -5010010851423370804
+      menu_transparent_20: -1824419076
       menu_transparent_3: -6678490489007087420
       menu_transparent_4: -3305798913348427980
       menu_transparent_5: 828318923766470537

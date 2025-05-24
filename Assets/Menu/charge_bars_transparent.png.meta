@@ -1297,7 +1297,54 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      charge_bars_transparent_0: -6948792043825133138
+      charge_bars_transparent_1: 509506934697339123
+      charge_bars_transparent_10: -2558413693596721332
+      charge_bars_transparent_11: 416223817451751743
+      charge_bars_transparent_12: 8396099014459040779
+      charge_bars_transparent_13: 1717485980767403099
+      charge_bars_transparent_14: -3667651080278643411
+      charge_bars_transparent_15: 1664197452558646702
+      charge_bars_transparent_16: -8979121000293596272
+      charge_bars_transparent_17: 5434588119250209989
+      charge_bars_transparent_18: 5327196326724370266
+      charge_bars_transparent_19: -7379662578489821556
+      charge_bars_transparent_2: -906827337030671861
+      charge_bars_transparent_20: -3047545221869794580
+      charge_bars_transparent_21: 5178939716451205459
+      charge_bars_transparent_22: 1147068778888950246
+      charge_bars_transparent_23: 5328159204274500746
+      charge_bars_transparent_24: -1247150351119661850
+      charge_bars_transparent_25: 7577820816079580480
+      charge_bars_transparent_26: -2774492788304772767
+      charge_bars_transparent_27: -59232711976059602
+      charge_bars_transparent_28: -3858695041019378477
+      charge_bars_transparent_29: 1750364696898528586
+      charge_bars_transparent_3: 7214165569658854123
+      charge_bars_transparent_30: -4656119079700330379
+      charge_bars_transparent_31: 6207179112725976421
+      charge_bars_transparent_32: -8047408263795041635
+      charge_bars_transparent_33: -8205499318669286669
+      charge_bars_transparent_34: 137144055916216255
+      charge_bars_transparent_35: -3843173074791639251
+      charge_bars_transparent_36: 4463800952006492339
+      charge_bars_transparent_37: -7257436622579849259
+      charge_bars_transparent_38: 1095935867183463497
+      charge_bars_transparent_39: -1578729642171903876
+      charge_bars_transparent_4: -4475922599312648995
+      charge_bars_transparent_40: 3996181850475992468
+      charge_bars_transparent_41: 1615426690664438747
+      charge_bars_transparent_42: -1843977525562132239
+      charge_bars_transparent_43: -4955980795176052881
+      charge_bars_transparent_44: 6852286220568054207
+      charge_bars_transparent_45: 8849383806136273040
+      charge_bars_transparent_46: 677736237105662908
+      charge_bars_transparent_5: 1042083755799234399
+      charge_bars_transparent_6: 908540831494752775
+      charge_bars_transparent_7: -3426767382870015041
+      charge_bars_transparent_8: 4725502103110069111
+      charge_bars_transparent_9: -2943341508003518012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
