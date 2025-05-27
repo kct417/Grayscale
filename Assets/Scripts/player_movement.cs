@@ -22,16 +22,14 @@ public class player_movement : MonoBehaviour
         {
             animator.SetBool("isMoving", true);
 
-            // Determine dominant direction
             if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
             {
-                // Horizontal movement
+                // Left-Right movement
                 float moveX = moveInput.x > 0 ? 1f : -1f;
                 animator.SetFloat("MoveX", moveX);
                 animator.SetFloat("MoveY", 0f);
-                Debug.Log("Set MoveX: " + moveX + ", MoveY: 0");
 
-                // 🔁 Flip sprite based on horizontal direction
+                // Flip sprite
                 if (moveInput.x > 0)
                     transform.localScale = new Vector3(-1f, 1f, 1f);  // Facing right
                 else
@@ -39,17 +37,15 @@ public class player_movement : MonoBehaviour
             }
             else
             {
-                // Vertical movement
+                // Up-Down movement
                 float moveY = moveInput.y > 0 ? 1f : -1f;
                 animator.SetFloat("MoveX", 0f);
                 animator.SetFloat("MoveY", moveY);
-                Debug.Log("Set MoveX: 0, MoveY: " + moveY);
             }
         }
         else
         {
             animator.SetBool("isMoving", false);
-            Debug.Log("Player is idle");
         }
     }
 
