@@ -4,7 +4,8 @@ using TMPro;
 
 public class DoorCode : MonoBehaviour
 {
-    public TMP_Text inputDisplay; 
+    public TMP_Text inputDisplay;
+    public GameObject door;
     private string currentInput = "";
     private string correctCode = "14"; 
 
@@ -31,7 +32,8 @@ public class DoorCode : MonoBehaviour
         string trimmedInput = currentInput.TrimStart('0');
         if (trimmedInput == correctCode)
         {
-            Debug.Log("Correct");
+            door.SetActive(false);
+            gameObject.SetActive(false);
         }
         else
         {
