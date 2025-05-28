@@ -9,7 +9,7 @@ public class Paintings : MonoBehaviour, InteractableInterface
         get; private set;
     }
 
-    public GameObject item; //here you would change the object to whatever the interaction is
+    public GameObject paintingsPanel; //here you would change the object to whatever the interaction is
 
 
 
@@ -27,15 +27,21 @@ public class Paintings : MonoBehaviour, InteractableInterface
 
     public void Interact()
     {
+        Debug.Log("Interact called on painting");
         LookAtPaintings();
     }
 
     private void LookAtPaintings()
     {
-        //OpenPopUp
-        if (item)
+        Debug.Log("Attempting to open panel");
+        if (paintingsPanel != null)
         {
-            GameObject droppedItem = Instantiate(item, transform.position + Vector3.down, Quaternion.identity);
+            paintingsPanel.SetActive(true);
+            Debug.Log("Panel should be visible now");
+        }
+        else
+        {
+            Debug.LogError("paintingsPanel is not assigned!");
         }
     }
     
