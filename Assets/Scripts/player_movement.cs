@@ -7,11 +7,14 @@ public class player_movement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
+    private Transform spriteTransform;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+
+        spriteTransform = transform.GetChild(0); 
+        animator = spriteTransform.GetComponent<Animator>();
     }
 
     void Update()
@@ -29,11 +32,14 @@ public class player_movement : MonoBehaviour
                 animator.SetFloat("MoveX", moveX);
                 animator.SetFloat("MoveY", 0f);
 
-                // Flip sprite
+                Vector3 newScale = spriteTransform.localScale;
+
                 if (moveInput.x > 0)
-                    transform.localScale = new Vector3(-1f, 1f, 1f);  // Facing right
+                    newScale.x = -Mathf.Abs(newScale.x); // Face right
                 else
-                    transform.localScale = new Vector3(1f, 1f, 1f);   // Facing left
+                    newScale.x = Mathf.Abs(newScale.x);  // Face left
+
+                spriteTransform.localScale = newScale;
             }
             else
             {
