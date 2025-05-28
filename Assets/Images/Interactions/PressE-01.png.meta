@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 2d927446e30d7c1468dd884ef8c4ad8f
+guid: 1ef11a116f2e1484caa9af3a64df0991
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 456278272652670821
-    second: webmemd-icon_0
+      213: -7650617583074728717
+    second: PressE-01_0
   - first:
-      213: -4908716374651073552
-    second: webmemd-icon_1
+      213: -1229943104172867433
+    second: PressE-01_1
   - first:
-      213: -962647505700308321
-    second: webmemd-icon_2
+      213: -8599723393297173800
+    second: PressE-01_2
+  - first:
+      213: -83281401820853493
+    second: PressE-01_3
+  - first:
+      213: 8824553717807143907
+    second: PressE-01_4
+  - first:
+      213: 4332687055679987331
+    second: PressE-01_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: webmemd-icon_0
+      name: PressE-01_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 39
-        width: 114
-        height: 50
+        x: 3
+        y: 6
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 567f038eba6055600800000000000000
-      internalID: 456278272652670821
+      spriteID: 3f42978c7db83d590800000000000000
+      internalID: -7650617583074728717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: webmemd-icon_1
+      name: PressE-01_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 71
-        width: 98
-        height: 34
+        x: 22
+        y: 6
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fb87c9f67cb0ebb0800000000000000
-      internalID: -4908716374651073552
+      spriteID: 790c5d5634d5eeee0800000000000000
+      internalID: -1229943104172867433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: webmemd-icon_2
+      name: PressE-01_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 23
-        width: 98
-        height: 26
+        x: 36
+        y: 6
+        width: 17
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +187,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9a31d2a13df3a2f0800000000000000
-      internalID: -962647505700308321
+      spriteID: 8d2b7e71325a7a880800000000000000
+      internalID: -8599723393297173800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressE-01_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 6
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b421c910028def0800000000000000
+      internalID: -83281401820853493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressE-01_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb5f331adc177a70800000000000000
+      internalID: 8824553717807143907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressE-01_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 6
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e1dbcebebc02c30800000000000000
+      internalID: 4332687055679987331
       vertices: []
       indices: 
       edges: []
@@ -198,9 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      webmemd-icon_0: 456278272652670821
-      webmemd-icon_1: -4908716374651073552
-      webmemd-icon_2: -962647505700308321
+      PressE-01_0: -7650617583074728717
+      PressE-01_1: -1229943104172867433
+      PressE-01_2: -8599723393297173800
+      PressE-01_3: -83281401820853493
+      PressE-01_4: 8824553717807143907
+      PressE-01_5: 4332687055679987331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
