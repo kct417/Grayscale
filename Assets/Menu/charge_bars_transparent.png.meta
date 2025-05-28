@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 40ec6147a426e294db43caaed3c8523c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6948792043825133138
+    second: charge_bars_transparent_0
+  - first:
+      213: 509506934697339123
+    second: charge_bars_transparent_1
+  - first:
+      213: -906827337030671861
+    second: charge_bars_transparent_2
+  - first:
+      213: 7214165569658854123
+    second: charge_bars_transparent_3
+  - first:
+      213: -4475922599312648995
+    second: charge_bars_transparent_4
+  - first:
+      213: 1042083755799234399
+    second: charge_bars_transparent_5
+  - first:
+      213: 908540831494752775
+    second: charge_bars_transparent_6
+  - first:
+      213: -3426767382870015041
+    second: charge_bars_transparent_7
+  - first:
+      213: 4725502103110069111
+    second: charge_bars_transparent_8
+  - first:
+      213: -2943341508003518012
+    second: charge_bars_transparent_9
+  - first:
+      213: -2558413693596721332
+    second: charge_bars_transparent_10
+  - first:
+      213: 416223817451751743
+    second: charge_bars_transparent_11
+  - first:
+      213: 8396099014459040779
+    second: charge_bars_transparent_12
+  - first:
+      213: 1717485980767403099
+    second: charge_bars_transparent_13
+  - first:
+      213: -3667651080278643411
+    second: charge_bars_transparent_14
+  - first:
+      213: 1664197452558646702
+    second: charge_bars_transparent_15
+  - first:
+      213: -8979121000293596272
+    second: charge_bars_transparent_16
+  - first:
+      213: 5434588119250209989
+    second: charge_bars_transparent_17
+  - first:
+      213: 5327196326724370266
+    second: charge_bars_transparent_18
+  - first:
+      213: -7379662578489821556
+    second: charge_bars_transparent_19
+  - first:
+      213: -3047545221869794580
+    second: charge_bars_transparent_20
+  - first:
+      213: 5178939716451205459
+    second: charge_bars_transparent_21
+  - first:
+      213: 1147068778888950246
+    second: charge_bars_transparent_22
+  - first:
+      213: 5328159204274500746
+    second: charge_bars_transparent_23
+  - first:
+      213: -1247150351119661850
+    second: charge_bars_transparent_24
+  - first:
+      213: 7577820816079580480
+    second: charge_bars_transparent_25
+  - first:
+      213: -2774492788304772767
+    second: charge_bars_transparent_26
+  - first:
+      213: -59232711976059602
+    second: charge_bars_transparent_27
+  - first:
+      213: -3858695041019378477
+    second: charge_bars_transparent_28
+  - first:
+      213: 1750364696898528586
+    second: charge_bars_transparent_29
+  - first:
+      213: -4656119079700330379
+    second: charge_bars_transparent_30
+  - first:
+      213: 6207179112725976421
+    second: charge_bars_transparent_31
+  - first:
+      213: -8047408263795041635
+    second: charge_bars_transparent_32
+  - first:
+      213: -8205499318669286669
+    second: charge_bars_transparent_33
+  - first:
+      213: 137144055916216255
+    second: charge_bars_transparent_34
+  - first:
+      213: -3843173074791639251
+    second: charge_bars_transparent_35
+  - first:
+      213: 4463800952006492339
+    second: charge_bars_transparent_36
+  - first:
+      213: -7257436622579849259
+    second: charge_bars_transparent_37
+  - first:
+      213: 1095935867183463497
+    second: charge_bars_transparent_38
+  - first:
+      213: -1578729642171903876
+    second: charge_bars_transparent_39
+  - first:
+      213: 3996181850475992468
+    second: charge_bars_transparent_40
+  - first:
+      213: 1615426690664438747
+    second: charge_bars_transparent_41
+  - first:
+      213: -1843977525562132239
+    second: charge_bars_transparent_42
+  - first:
+      213: -4955980795176052881
+    second: charge_bars_transparent_43
+  - first:
+      213: 6852286220568054207
+    second: charge_bars_transparent_44
+  - first:
+      213: 8849383806136273040
+    second: charge_bars_transparent_45
+  - first:
+      213: 677736237105662908
+    second: charge_bars_transparent_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: charge_bars_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 197
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea90eb1d37ee09f90800000000000000
+      internalID: -6948792043825133138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 197
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ab3d8bd1221700800000000000000
+      internalID: 509506934697339123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b026caf675d4a63f0800000000000000
+      internalID: -906827337030671861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea9e520d5ddd1460800000000000000
+      internalID: 7214165569658854123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 198
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd493d14c1452e1c0800000000000000
+      internalID: -4475922599312648995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 205
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f574e9a97a9367e00800000000000000
+      internalID: 1042083755799234399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ace259219cb9c00800000000000000
+      internalID: 908540831494752775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 195
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb34328983da170d0800000000000000
+      internalID: -3426767382870015041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 182
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bac31402b549140800000000000000
+      internalID: 4725502103110069111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 205
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9a9c23e762727d0800000000000000
+      internalID: -2943341508003518012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 117
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f1cacfc40be7cd0800000000000000
+      internalID: -2558413693596721332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 197
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39c4425b59b6c500800000000000000
+      internalID: 416223817451751743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 165
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04a6d7b19fe48470800000000000000
+      internalID: 8396099014459040779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 165
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cba5e566cb5d710800000000000000
+      internalID: 1717485980767403099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 165
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2de9e746c2e91dc0800000000000000
+      internalID: -3667651080278643411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 165
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead3edb04ca681710800000000000000
+      internalID: 1664197452558646702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 181
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093004e0601c36380800000000000000
+      internalID: -8979121000293596272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 181
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc877cc9198b6b40800000000000000
+      internalID: 5434588119250209989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 165
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ffb2f95d00ee940800000000000000
+      internalID: 5327196326724370266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 133
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86fed6ebfb269990800000000000000
+      internalID: -7379662578489821556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 133
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea038d64c1f4b5d0800000000000000
+      internalID: -3047545221869794580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 149
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3518c30ab3a4fd740800000000000000
+      internalID: 5178939716451205459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 149
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1fd9a1af43bef00800000000000000
+      internalID: 1147068778888950246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 149
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a847285019c61f940800000000000000
+      internalID: 5328159204274500746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 149
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e442040d5b31bee0800000000000000
+      internalID: -1247150351119661850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 133
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04debf912e3d92960800000000000000
+      internalID: 7577820816079580480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 133
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161063942850f79d0800000000000000
+      internalID: -2774492788304772767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 133
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d759b89209d2ff0800000000000000
+      internalID: -59232711976059602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 101
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d48a7fed49237ac0800000000000000
+      internalID: -3858695041019378477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 101
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4565020b6b8a4810800000000000000
+      internalID: 1750364696898528586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 117
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5780b8ebd54226fb0800000000000000
+      internalID: -4656119079700330379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 117
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56591471484542650800000000000000
+      internalID: 6207179112725976421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 117
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a14f132dcd15090800000000000000
+      internalID: -8047408263795041635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 101
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2e10228d5302e80800000000000000
+      internalID: -8205499318669286669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 101
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf31ffcacb37e100800000000000000
+      internalID: 137144055916216255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 101
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27d2b2537e4aaac0800000000000000
+      internalID: -3843173074791639251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0c56cc05b92fd30800000000000000
+      internalID: 4463800952006492339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 73
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7a733e7d7684b90800000000000000
+      internalID: -7257436622579849259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 57
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c741c5ddb853f00800000000000000
+      internalID: 1095935867183463497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 21
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70d6f141c9371ae0800000000000000
+      internalID: -1578729642171903876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 21
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4951c77683a457730800000000000000
+      internalID: 3996181850475992468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 21
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb1db924062b6610800000000000000
+      internalID: 1615426690664438747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 21
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8b017d530e866e0800000000000000
+      internalID: -1843977525562132239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 21
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f679fd589b1d83bb0800000000000000
+      internalID: -4955980795176052881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 21
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9434c3306381f50800000000000000
+      internalID: 6852286220568054207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 41
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098c8d58fa35fca70800000000000000
+      internalID: 8849383806136273040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charge_bars_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 25
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbc710548dc76900800000000000000
+      internalID: 677736237105662908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      charge_bars_transparent_0: -6948792043825133138
+      charge_bars_transparent_1: 509506934697339123
+      charge_bars_transparent_10: -2558413693596721332
+      charge_bars_transparent_11: 416223817451751743
+      charge_bars_transparent_12: 8396099014459040779
+      charge_bars_transparent_13: 1717485980767403099
+      charge_bars_transparent_14: -3667651080278643411
+      charge_bars_transparent_15: 1664197452558646702
+      charge_bars_transparent_16: -8979121000293596272
+      charge_bars_transparent_17: 5434588119250209989
+      charge_bars_transparent_18: 5327196326724370266
+      charge_bars_transparent_19: -7379662578489821556
+      charge_bars_transparent_2: -906827337030671861
+      charge_bars_transparent_20: -3047545221869794580
+      charge_bars_transparent_21: 5178939716451205459
+      charge_bars_transparent_22: 1147068778888950246
+      charge_bars_transparent_23: 5328159204274500746
+      charge_bars_transparent_24: -1247150351119661850
+      charge_bars_transparent_25: 7577820816079580480
+      charge_bars_transparent_26: -2774492788304772767
+      charge_bars_transparent_27: -59232711976059602
+      charge_bars_transparent_28: -3858695041019378477
+      charge_bars_transparent_29: 1750364696898528586
+      charge_bars_transparent_3: 7214165569658854123
+      charge_bars_transparent_30: -4656119079700330379
+      charge_bars_transparent_31: 6207179112725976421
+      charge_bars_transparent_32: -8047408263795041635
+      charge_bars_transparent_33: -8205499318669286669
+      charge_bars_transparent_34: 137144055916216255
+      charge_bars_transparent_35: -3843173074791639251
+      charge_bars_transparent_36: 4463800952006492339
+      charge_bars_transparent_37: -7257436622579849259
+      charge_bars_transparent_38: 1095935867183463497
+      charge_bars_transparent_39: -1578729642171903876
+      charge_bars_transparent_4: -4475922599312648995
+      charge_bars_transparent_40: 3996181850475992468
+      charge_bars_transparent_41: 1615426690664438747
+      charge_bars_transparent_42: -1843977525562132239
+      charge_bars_transparent_43: -4955980795176052881
+      charge_bars_transparent_44: 6852286220568054207
+      charge_bars_transparent_45: 8849383806136273040
+      charge_bars_transparent_46: 677736237105662908
+      charge_bars_transparent_5: 1042083755799234399
+      charge_bars_transparent_6: 908540831494752775
+      charge_bars_transparent_7: -3426767382870015041
+      charge_bars_transparent_8: 4725502103110069111
+      charge_bars_transparent_9: -2943341508003518012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
