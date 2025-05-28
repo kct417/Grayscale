@@ -27,21 +27,15 @@ public class Paintings : MonoBehaviour, InteractableInterface
 
     public void Interact()
     {
-        Debug.Log("Interact called on painting");
         LookAtPaintings();
     }
 
     private void LookAtPaintings()
     {
-        Debug.Log("Attempting to open panel");
         if (paintingsPanel != null)
         {
-            paintingsPanel.SetActive(true);
-            Debug.Log("Panel should be visible now");
-        }
-        else
-        {
-            Debug.LogError("paintingsPanel is not assigned!");
+            bool isActive = paintingsPanel.activeSelf;
+            paintingsPanel.SetActive(!isActive);
         }
     }
     

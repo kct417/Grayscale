@@ -14,7 +14,6 @@ public class InteractionDetector : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        Debug.Log("OnInteract triggered with phase: " + context.phase);
         if (context.started)
         {
             interactableInRange?.Interact();
@@ -27,7 +26,6 @@ public class InteractionDetector : MonoBehaviour
         {
             interactableInRange = interactable;
             icon.SetActive(true);
-            Debug.Log("Woah an icon");
         }
     }
 
