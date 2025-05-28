@@ -10,11 +10,11 @@ public class SceneChange : MonoBehaviour
 
     public void Options()
     {
-        SceneManager.LoadScene("Options");
+        // SceneManager.LoadScene("Options");
     }
 
     public void Credits()
     {
-        SceneManager.LoadScene("Credits");
+        // SceneManager.LoadScene("Credits");
     }
 }
