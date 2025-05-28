@@ -7,7 +7,7 @@ public class DoorCode : MonoBehaviour
     public TMP_Text inputDisplay;
     public GameObject door;
     private string currentInput = "";
-    private string correctCode = "16"; 
+    private string correctCode = "14"; 
 
     public void OnNumberButtonPressed(string number)
     {
