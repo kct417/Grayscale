@@ -20,7 +20,7 @@ public class InteractionDetector : MonoBehaviour
         }
     }
 
-    private void OnTrigger2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out InteractableInterface interactable) && interactable.CanInteract())
         {
@@ -29,7 +29,7 @@ public class InteractionDetector : MonoBehaviour
         }
     }
 
-    private void OnTiggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out InteractableInterface interactable) && interactable == interactableInRange)
         {

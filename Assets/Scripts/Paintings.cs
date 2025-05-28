@@ -3,10 +3,6 @@ using UnityEngine;
 
 public class Paintings : MonoBehaviour, InteractableInterface
 {
-    public bool IsOpened
-    {
-        get; private set;
-    }
 
     public string PaintingsID
     {

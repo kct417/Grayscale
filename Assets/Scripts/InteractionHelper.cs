@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InteractionHelper
+public static class InteractionHelper
 {
     public static string GenerateUniqueID(GameObject obj)
     {
