@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Animator animator;
     private Transform spriteTransform;
-    [SerializeField] AudioSource walkingSFX;
+    [SerializeField] public AudioSource walkingSFX;
 
     void Start()
     {
@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        if (!enabled) return;
         walkingSFX.Play();
         moveInput = context.ReadValue<Vector2>();
     }
