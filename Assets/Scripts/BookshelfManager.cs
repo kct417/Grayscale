@@ -8,11 +8,10 @@ public class BookshelfManager : MonoBehaviour
     public GameObject bookshelfPanel;
     public Book[] books; 
     public GameObject bookPopupPrefab;
-    public KeyCode toggleKey = KeyCode.E;
+    public KeyCode toggleKey;
     private bool isBookshelfOpen = false;
     private Canvas mainCanvas;
 
-    private void OnMouseEnter() => Debug.Log("Mouse OVER bookshelf");
 
     private void Awake()
     {
@@ -20,11 +19,6 @@ public class BookshelfManager : MonoBehaviour
             Destroy(gameObject);
         else
             Instance = this;
-
-        if (Camera.main.GetComponent<Physics2DRaycaster>() == null)
-        {
-            Camera.main.gameObject.AddComponent<Physics2DRaycaster>();
-        }
 
         mainCanvas = FindFirstObjectByType<Canvas>();
     }
@@ -40,7 +34,7 @@ public class BookshelfManager : MonoBehaviour
     public void ToggleBookshelf()
     {
         isBookshelfOpen = true;
-        bookshelfPanel.SetActive(true);
+        bookshelfPanel.SetActive(isBookshelfOpen);
         Debug.Log("Bookshelf toggled: " + isBookshelfOpen);
     }
 
