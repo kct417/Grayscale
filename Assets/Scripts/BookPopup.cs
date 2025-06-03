@@ -5,7 +5,8 @@ using TMPro;
 public class BookPopup : MonoBehaviour
 {
     public TMP_Text title;
-    public TMP_Text content;
+    public TMP_Text contentBox1;
+    public TMP_Text contentBox2;
     public Image cover;
     public Button close;
     
@@ -17,7 +18,8 @@ public class BookPopup : MonoBehaviour
     public void Setup(BookData data)
     {
         title.text = data.title;
-        content.text = data.content;
+        contentBox1.text = data.contentLeft;
+        contentBox2.text = data.contentRight;
         cover.sprite = data.coverImage;
     }
     
