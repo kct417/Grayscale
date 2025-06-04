@@ -17,7 +17,6 @@ public class InteractionDetector : MonoBehaviour
     {
         if (context.started)
         {
-            playerMovement.disableMove();
             interactableInRange?.Interact();
         }
     }
