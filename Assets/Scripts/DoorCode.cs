@@ -9,6 +9,8 @@ public class DoorCode : MonoBehaviour
     private string currentInput = "";
     private string correctCode = "14"; 
 
+    public PlayerMovement playerMovement;
+
     public void OnNumberButtonPressed(string number)
     {
         if (currentInput.Length < 4)
@@ -32,6 +34,7 @@ public class DoorCode : MonoBehaviour
         string trimmedInput = currentInput.TrimStart('0');
         if (trimmedInput == correctCode)
         {
+            playerMovement.disableMove();
             door.SetActive(false);
             gameObject.SetActive(false);
         }

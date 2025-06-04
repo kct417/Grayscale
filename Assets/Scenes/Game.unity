@@ -1074,6 +1074,10 @@ PrefabInstance:
       propertyPath: door
       value: 
       objectReference: {fileID: 1276329787}
+    - target: {fileID: 2778384423581776401, guid: b36a15ab28850ea4a9912cad26e1a106, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 524645475}
     - target: {fileID: 3701002156814979845, guid: b36a15ab28850ea4a9912cad26e1a106, type: 3}
       propertyPath: m_Name
       value: doorPanel
@@ -5699,6 +5703,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7274084811067654398, guid: d90b3968897ac804587abc61fd561430, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 524645475}
     - target: {fileID: 8310230410022201547, guid: d90b3968897ac804587abc61fd561430, type: 3}
       propertyPath: m_Name
       value: Player
