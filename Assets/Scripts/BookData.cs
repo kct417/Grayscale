@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class BookData
@@ -8,4 +9,6 @@ public class BookData
     [TextArea(10, 20)] public string contentRight;
 
     public Sprite coverImage;
+    
+    public Sprite puzzle;
 }
