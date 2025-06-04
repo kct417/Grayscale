@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Animator animator;
     private Transform spriteTransform;
+
+    private Boolean canMove = true;
+
     [SerializeField] public AudioSource walkingSFX;
 
     void Start()
@@ -20,47 +24,56 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        rb.linearVelocity = moveInput * moveSpeed;
-
-        if (moveInput != Vector2.zero)
+        if (canMove)
         {
-            animator.SetBool("isMoving", true);
+            rb.linearVelocity = moveInput * moveSpeed;
 
-            if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
+            if (moveInput != Vector2.zero)
             {
-                // Left-Right movement
-                float moveX = moveInput.x > 0 ? 1f : -1f;
-                animator.SetFloat("MoveX", moveX);
-                animator.SetFloat("MoveY", 0f);
+                animator.SetBool("isMoving", true);
 
-                Vector3 newScale = spriteTransform.localScale;
+                if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
+                {
+                    // Left-Right movement
+                    float moveX = moveInput.x > 0 ? 1f : -1f;
+                    animator.SetFloat("MoveX", moveX);
+                    animator.SetFloat("MoveY", 0f);
 
-                if (moveInput.x > 0)
-                    newScale.x = -Mathf.Abs(newScale.x); // Face right
+                    Vector3 newScale = spriteTransform.localScale;
+
+                    if (moveInput.x > 0)
+                        newScale.x = -Mathf.Abs(newScale.x); // Face right
+                    else
+                        newScale.x = Mathf.Abs(newScale.x);  // Face left
+
+                    spriteTransform.localScale = newScale;
+                }
                 else
-                    newScale.x = Mathf.Abs(newScale.x);  // Face left
-
-                spriteTransform.localScale = newScale;
+                {
+                    // Up-Down movement
+                    float moveY = moveInput.y > 0 ? 1f : -1f;
+                    animator.SetFloat("MoveX", 0f);
+                    animator.SetFloat("MoveY", moveY);
+                }
             }
             else
             {
-                // Up-Down movement
-                float moveY = moveInput.y > 0 ? 1f : -1f;
-                animator.SetFloat("MoveX", 0f);
-                animator.SetFloat("MoveY", moveY);
+                walkingSFX.Stop();
+                animator.SetBool("isMoving", false);
             }
-        }
-        else
-        {
-            animator.SetBool("isMoving", false);
-            walkingSFX.Stop();
         }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
-        if (!enabled) return;
         walkingSFX.Play();
         moveInput = context.ReadValue<Vector2>();
+    }
+
+    public void disableMove()
+    {
+        walkingSFX.Stop();
+        animator.SetBool("isMoving", false);
+        canMove = !canMove;
     }
 }
