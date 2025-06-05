@@ -10,7 +10,7 @@ public class Interaction : MonoBehaviour, InteractableInterface
     }
 
     public GameObject panel; //here you would change the object to whatever the interaction is
-
+    public PlayerMovement playerMovement;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -36,6 +36,7 @@ public class Interaction : MonoBehaviour, InteractableInterface
         {
             bool isActive = panel.activeSelf;
             panel.SetActive(!isActive);
+            playerMovement.setMove(isActive);
         }
     }
     

@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        spriteTransform = transform.GetChild(0); 
+        spriteTransform = transform.GetChild(0);
         animator = spriteTransform.GetComponent<Animator>();
     }
 
@@ -66,8 +66,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        walkingSFX.Play();
-        moveInput = context.ReadValue<Vector2>();
+        if (canMove)
+        {
+            walkingSFX.Play();
+            moveInput = context.ReadValue<Vector2>();
+        }
     }
 
     public void enableMove()
@@ -80,5 +83,15 @@ public class PlayerMovement : MonoBehaviour
         walkingSFX.Stop();
         animator.SetBool("isMoving", false);
         canMove = false;
+    }
+
+    public void setMove(Boolean move)
+    {
+        canMove = move;
+        if (!move)
+        {
+            walkingSFX.Stop();
+            animator.SetBool("isMoving", false);
+        }
     }
 }

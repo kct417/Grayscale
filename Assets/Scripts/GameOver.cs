@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class GameOver : MonoBehaviour
 {
-    public PlayerMovement moveScript;
     public GameObject gameOverPanel;
+    public PlayerMovement playerMovement;
+    
     void OnCollisionEnter2D(Collision2D other)
     {
-        moveScript.walkingSFX.Stop();
-        moveScript.enabled = false; 
-        gameOverPanel.SetActive(true); 
+        playerMovement.setMove(false);
+        gameOverPanel.SetActive(true);
     }
 }

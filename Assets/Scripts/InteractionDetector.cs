@@ -5,7 +5,6 @@ public class InteractionDetector : MonoBehaviour
 {
     private InteractableInterface interactableInRange = null; //Closest Interactable Object
     public GameObject icon; //interaction icon
-    public PlayerMovement playerMovement;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

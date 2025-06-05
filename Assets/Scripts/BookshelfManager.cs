@@ -35,19 +35,16 @@ public class BookshelfManager : MonoBehaviour
     {
         isBookshelfOpen = true;
         bookshelfPanel.SetActive(isBookshelfOpen);
-        Debug.Log("Bookshelf toggled: " + isBookshelfOpen);
     }
 
     public static bool IsBookshelfOpen()
     {
-        Debug.Log("Check Bookshelf Open");
         return Instance != null && Instance.isBookshelfOpen;
     }
 
     // Called by individual books when clicked
     public void OpenBook(BookData bookData)
     {
-        Debug.Log("Open Book 1");
         GameObject popup = Instantiate(bookPopupPrefab, Vector3.zero, Quaternion.identity);
         popup.transform.SetParent(mainCanvas.transform, false);
         

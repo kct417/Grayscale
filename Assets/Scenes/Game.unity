@@ -228,6 +228,10 @@ PrefabInstance:
       propertyPath: panel
       value: 
       objectReference: {fileID: 512042667}
+    - target: {fileID: 726750751970914519, guid: e487ad58e48308547b0f3c64635d6796, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 524645475}
     - target: {fileID: 1167991025211408331, guid: e487ad58e48308547b0f3c64635d6796, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5527405
@@ -1252,6 +1256,10 @@ PrefabInstance:
       propertyPath: panel
       value: 
       objectReference: {fileID: 574526482}
+    - target: {fileID: 3454305887873922307, guid: e487ad58e48308547b0f3c64635d6796, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 524645475}
     - target: {fileID: 3728330388519228310, guid: e487ad58e48308547b0f3c64635d6796, type: 3}
       propertyPath: m_ChunkCullingBounds.y
       value: 0
@@ -1360,6 +1368,10 @@ PrefabInstance:
       propertyPath: panel
       value: 
       objectReference: {fileID: 59715994}
+    - target: {fileID: 4458874442158698752, guid: e487ad58e48308547b0f3c64635d6796, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 524645475}
     - target: {fileID: 4665249317417239569, guid: e487ad58e48308547b0f3c64635d6796, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5527405
@@ -3114,7 +3126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grayscaleMaterial: {fileID: 2100000, guid: 9ee2aa1e9f190e441809a1c0eed1e8b4, type: 2}
-  duration: 300
+  duration: 600
   loop: 0
 --- !u!1 &970280666
 GameObject:
@@ -3418,8 +3430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13b66514d8d18b4881e9c1e325aa0b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveScript: {fileID: 524645475}
   gameOverPanel: {fileID: 1504493612}
+  playerMovement: {fileID: 524645475}
 --- !u!1 &1413010069
 GameObject:
   m_ObjectHideFlags: 0
@@ -3545,6 +3557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1090614844}
+  playerMovement: {fileID: 524645475}
 --- !u!66 &1459589256
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -4017,6 +4030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 507707064}
+  playerMovement: {fileID: 524645475}
 --- !u!1 &1807294711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5033,6 +5047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 309318161}
+  playerMovement: {fileID: 524645475}
 --- !u!66 &2089596642
 CompositeCollider2D:
   m_ObjectHideFlags: 0
