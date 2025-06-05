@@ -2788,6 +2788,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 8932069908581929447, guid: 982f2ad136abe5d468de08eb0ca76f98, type: 3}
+    - target: {fileID: 5008412621590962044, guid: 0d87661aebbb0e54ba36d92c273aed37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5860354059408130664, guid: 0d87661aebbb0e54ba36d92c273aed37, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5578,7 +5582,7 @@ PrefabInstance:
     - target: {fileID: 3515629388280311105, guid: c20cf8471607dc341b293a6ff600eb3c, type: 3}
       propertyPath: bookData.puzzle
       value: 
-      objectReference: {fileID: -2608078817274862283, guid: a53de77d5ff923842ac9a1c98e471b47, type: 3}
+      objectReference: {fileID: 8932069908581929447, guid: 982f2ad136abe5d468de08eb0ca76f98, type: 3}
     - target: {fileID: 3638364713706501343, guid: c20cf8471607dc341b293a6ff600eb3c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 1.1876
