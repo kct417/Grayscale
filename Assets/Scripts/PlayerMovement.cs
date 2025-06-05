@@ -70,10 +70,15 @@ public class PlayerMovement : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
     }
 
+    public void enableMove()
+    {
+        canMove = true;
+    }
+
     public void disableMove()
     {
         walkingSFX.Stop();
         animator.SetBool("isMoving", false);
-        canMove = !canMove;
+        canMove = false;
     }
 }
