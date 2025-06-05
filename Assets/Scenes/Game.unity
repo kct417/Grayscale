@@ -3126,7 +3126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grayscaleMaterial: {fileID: 2100000, guid: 9ee2aa1e9f190e441809a1c0eed1e8b4, type: 2}
-  duration: 600
+  duration: 900
   loop: 0
 --- !u!1 &970280666
 GameObject:
