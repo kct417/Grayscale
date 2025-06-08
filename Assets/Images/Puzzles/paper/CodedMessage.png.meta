@@ -3,8 +3,8 @@ guid: acd98983a3e4a3344a5c6a912daa5208
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5200959481713549168
-    second: papers-4_0
+      213: 2873807523435643381
+    second: CodedMessage_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: papers-4_0
+      name: CodedMessage_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1000
-        height: 1000
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07f5cbeb7158d2840800000000000000
-      internalID: 5200959481713549168
+      spriteID: 5f10a3b67b0d1e720800000000000000
+      internalID: 2873807523435643381
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      papers-4_0: 5200959481713549168
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

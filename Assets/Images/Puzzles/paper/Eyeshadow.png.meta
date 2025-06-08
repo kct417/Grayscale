@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 982f2ad136abe5d468de08eb0ca76f98
+guid: cf211c746c76ff4458ded90e784b0860
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8932069908581929447
-    second: papers-2_0
+      213: -8025630952266887015
+    second: Eyeshadow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: papers-2_0
+      name: Eyeshadow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 852
-        height: 852
+        x: 198
+        y: 102
+        width: 584
+        height: 225
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e15bf9f14615fb70800000000000000
-      internalID: 8932069908581929447
+      spriteID: 99090c7ab2b3f9090800000000000000
+      internalID: -8025630952266887015
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cb63a5b131fae99459d1bd4c7904958e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      papers-2_0: 8932069908581929447
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

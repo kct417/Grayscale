@@ -1,43 +1,36 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class SpinCipher : MonoBehaviour
+public class SpinUI : MonoBehaviour, IPointerDownHandler, IDragHandler
 {
-    Camera cam;
-    private bool mouseDrag = false;
-    private float saveAngle;
+    private RectTransform rectTransform;
+    private Vector2 centerScreenPos;
+    private float lastAngle;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        cam = Camera.main;
+        rectTransform = GetComponent<RectTransform>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnPointerDown(PointerEventData eventData)
     {
-        if (mouseDrag)
-        {
-            Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 direction = mousePos - (Vector2)transform.position;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-            float angleDelta = Mathf.DeltaAngle(saveAngle, angle);
-            transform.Rotate(0, 0, angleDelta);
-
-            saveAngle = angle;
-
-            if (Input.GetMouseButtonUp(0))
-            {
-                mouseDrag = false;
-            }
-        }
+        centerScreenPos = RectTransformUtility.WorldToScreenPoint(eventData.pressEventCamera, rectTransform.position);
+        lastAngle = GetAngle(eventData.position);
     }
-    
-    void OnMouseDown()
+
+    public void OnDrag(PointerEventData eventData)
     {
-        Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = mousePos - (Vector2)transform.position;
-        saveAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        mouseDrag = true;
+        float currentAngle = GetAngle(eventData.position);
+        float deltaAngle = Mathf.DeltaAngle(lastAngle, currentAngle);
+
+        rectTransform.Rotate(0, 0, deltaAngle);
+
+        lastAngle = currentAngle;
+    }
+
+    private float GetAngle(Vector2 pointerPos)
+    {
+        Vector2 dir = pointerPos - centerScreenPos;
+        return Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
     }
 }
