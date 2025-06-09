@@ -155,7 +155,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -1550}
-  m_SizeDelta: {x: 400, y: 2000}
+  m_SizeDelta: {x: 1300, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66642858
 MonoBehaviour:
@@ -177,14 +177,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-
-    Nancy Nguyen
-
-    Casey Tran
-
-    San Tran'
+  m_text: "\n\nNancy Nguyen\nCasey Tran\nSan Tran\n\n\n\nhttps://assetbakery.itch.io/horror-house-tileset\r\nhttps://byandrox.itch.io/black-white-gui-animations-included\r\nhttps://assetstore.unity.com/packages/2d/gui/icons/simple-free-pixel-art-styled-ui-pack-165012#content\r\nhttps://trislin.itch.io/pixel-lands-interiors
+    \r\nhttps://www.dafont.com/andrew-tyler.d2526\r\nhttps://www.1001freefonts.com/daemonesque.font\r\n\n\n\n\nhttps://freesound.org/people/orangefreesounds/sounds/242080/\r\nhttps://freesound.org/people/Galbenshire/sounds/464519/
+    \r\nhttps://pixabay.com/sound-effects/buzz-buzz-95806/\r\nhttps://pixabay.com/sound-effects/ding-36029/\r\nhttps://pixabay.com/sound-effects/button-click-289742/\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -312,7 +307,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -1550}
-  m_SizeDelta: {x: 600, y: 2000}
+  m_SizeDelta: {x: 1300, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &283906776
 MonoBehaviour:
@@ -340,6 +335,7 @@ MonoBehaviour:
 
 
     Image Assets
+
 
 
 
