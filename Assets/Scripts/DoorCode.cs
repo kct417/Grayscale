@@ -1,20 +1,32 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; 
+using TMPro;
+using System.Collections;
 
 public class DoorCode : MonoBehaviour
 {
     public TMP_Text inputDisplay;
     public GameObject door;
     private string currentInput = "";
-    private string correctCode = "5413"; 
+    private string correctCode = "5413";
 
     public PlayerMovement playerMovement;
+
+    private AudioSource audioSource;
+    public AudioClip clickNoise;
+    public AudioClip correctNoise;
+    public AudioClip wrongNoise;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     public void OnNumberButtonPressed(string number)
     {
         if (currentInput.Length < 4)
         {
+            audioSource.PlayOneShot(clickNoise);
             currentInput += number;
             UpdateDisplay();
         }
@@ -34,13 +46,12 @@ public class DoorCode : MonoBehaviour
         string trimmedInput = currentInput.TrimStart('0');
         if (trimmedInput == correctCode)
         {
-            playerMovement.SetMove(true);
-            door.SetActive(false);
-            gameObject.SetActive(false);
+            audioSource.PlayOneShot(correctNoise);
+            StartCoroutine(DelayOpen(1f));
         }
         else
         {
-            Debug.Log("Incorrect");
+            audioSource.PlayOneShot(wrongNoise);
         }
         currentInput = "";
         UpdateDisplay();
@@ -50,4 +61,12 @@ public class DoorCode : MonoBehaviour
     {
         inputDisplay.text = string.Join("   ", currentInput.ToCharArray());
     }
+
+    private IEnumerator DelayOpen(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        playerMovement.SetMove(true);
+        door.SetActive(false);
+        gameObject.SetActive(false);
+    } 
 }
