@@ -36,7 +36,7 @@ public class Interaction : MonoBehaviour, InteractableInterface
         {
             bool isActive = panel.activeSelf;
             panel.SetActive(!isActive);
-            playerMovement.setMove(isActive);
+            playerMovement.SetMove(isActive);
         }
     }
     

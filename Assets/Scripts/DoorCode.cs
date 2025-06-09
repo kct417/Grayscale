@@ -34,7 +34,7 @@ public class DoorCode : MonoBehaviour
         string trimmedInput = currentInput.TrimStart('0');
         if (trimmedInput == correctCode)
         {
-            playerMovement.setMove(true);
+            playerMovement.SetMove(true);
             door.SetActive(false);
             gameObject.SetActive(false);
         }

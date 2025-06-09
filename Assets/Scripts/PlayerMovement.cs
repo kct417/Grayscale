@@ -73,19 +73,19 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void enableMove()
+    public void EnableMove()
     {
         canMove = true;
     }
 
-    public void disableMove()
+    public void DisableMove()
     {
         walkingSFX.Stop();
         animator.SetBool("isMoving", false);
         canMove = false;
     }
 
-    public void setMove(Boolean move)
+    public void SetMove(Boolean move)
     {
         canMove = move;
         if (!move)

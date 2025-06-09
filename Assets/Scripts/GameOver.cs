@@ -7,7 +7,7 @@ public class GameOver : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D other)
     {
-        playerMovement.setMove(false);
+        playerMovement.SetMove(false);
         gameOverPanel.SetActive(true);
     }
 }
