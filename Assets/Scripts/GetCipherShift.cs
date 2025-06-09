@@ -13,7 +13,7 @@ public class GetCipherShift : MonoBehaviour
         float outerZ = outerCircle.eulerAngles.z;
         float innerZ = innerCircle.eulerAngles.z;
 
-        float angleDifference = Mathf.DeltaAngle(innerZ, outerZ);
+        float angleDifference = Mathf.DeltaAngle(outerZ, innerZ);
         if (angleDifference < 0)
             angleDifference += 360f; 
 
