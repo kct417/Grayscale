@@ -29,18 +29,21 @@ public class BgMusic : MonoBehaviour
 
     private void CheckScene(string sceneName)
     {
-        if (sceneName == "Game")
-        {
-            defaultBg.Stop();
-            if (!gameBg.isPlaying)
-                gameBg.Play();
-        }
-        else
-        {
-            gameBg.Stop();
-            if (!defaultBg.isPlaying)
+        // if (sceneName == "Game")
+        // {
+        //     defaultBg.Stop();
+        //     if (!gameBg.isPlaying)
+        //         gameBg.Play();
+        // }
+        // else
+        // {
+        //     gameBg.Stop();
+        //     if (!defaultBg.isPlaying)
+        //         defaultBg.Play();
+        // }
+
+        if (!defaultBg.isPlaying)
                 defaultBg.Play();
-        }
     }
 
 }
