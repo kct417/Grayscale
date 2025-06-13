@@ -8,9 +8,6 @@ public class HintButton : MonoBehaviour
 
     private void Start()
     {
-        Button button = GetComponent<Button>();
-        button.onClick.AddListener(ToggleHintPanel);
-        
         hintPanel.SetActive(isHintButtonOpen);
     }
 
